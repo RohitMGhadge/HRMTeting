@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HRMSuite">
+  <test thread-count="5" name="HRMTest">
+    <classes>
+      <class name="testjava.DashboardTest"/>
+      <class name="testjava.LoginTest"/>
+    </classes>
+  </test> <!-- HRMTest -->
+</suite> <!-- HRMSuite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRMSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HRMTest(failed)">
+    <classes>
+      <class name="testjava.DashboardTest">
+        <methods>
+          <include name="verifyLogoutOption"/>
+        </methods>
+      </class> <!-- testjava.DashboardTest -->
+      <class name="testjava.LoginTest">
+        <methods>
+          <include name="BrowserLaunch"/>
+          <include name="VerifyLoginTitle"/>
+          <include name="TearDown"/>
+          <include name="VerifyUrl"/>
+          <include name="verifyLoginWithCorrectCred"/>
+          <include name="allPageObjects"/>
+        </methods>
+      </class> <!-- testjava.LoginTest -->
+    </classes>
+  </test> <!-- HRMTest(failed) -->
+</suite> <!-- Failed suite [HRMSuite] -->
